@@ -1,0 +1,29 @@
+header{
+    height: 80px;
+}
+
+.wrapper{
+    margin-top: 80px;
+    overflow: hidden;
+    height: calc(100vh - 80px);
+}
+
+#sidebar{
+    height: 100%;
+    width: 180px;
+    flex-shrink: 0;
+    background-color: #051e34;
+    background-image: url("");
+}
+
+main{
+    flex-grow: 1;
+    overflow-y: auto;
+    height: 100%;
+}
+
+/*debug*/
+
+.debug{
+    border: 1px solid black;
+}
