@@ -15,9 +15,38 @@
 </head>
 
 <body class="bg-body-tertiary">
-    <header class="fixed-top d-flex align-items-center">
+    <header class="fixed-top">
         <nav class="bg-white">
-            header
+            <div class="container-fluid text-center">
+                <div class="row align-items-center ag-nowrap">
+                    <div class="col debug">
+                        <img src="./img/logo.svg" alt="logo">
+                    </div>
+                    <div id="search" class="col-10 mt-3 debug">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel"
+                                aria-label="#">
+                        </div>
+                    </div>
+                    <div class="col text-nowrap debug">
+                        <div class="d-flex justify-content-around">
+                            <a href="#" class="text-decoration-none">
+                                <i class="fa-solid fa-list-ul ms-1"></i>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <i class="fa-solid fa-circle-question ms-1"></i>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <i class="fa-solid fa-ellipsis-vertical ms-2"></i>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <i class="fa-solid fa-bell ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
         </nav>
     </header>
     <div class="wrapper d-flex">
@@ -41,7 +70,13 @@
                         <span>Signals</span>
                     </a>
                 </div>
-              </div>
+                <div class="p-1">
+                    <a class="btn" href="#" role="button">
+                        <i class="fa-solid fa-gear"></i>
+                        <span>Settings</span>
+                    </a>
+                </div>
+            </div>
         </nav>
         <main class="">
             <div class="aside bg-primary text-white">
